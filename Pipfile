@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 django = "~=4.1.0"
 python-dotenv = "*"
+pillow = "==9.2.0"
 
 [dev-packages]
 
