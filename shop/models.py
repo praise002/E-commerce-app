@@ -17,7 +17,7 @@ class Category(models.Model):
         return self.name
     
 
-class product(models.Model):
+class Product(models.Model):
     # category, name, slug, image, description, price, available,created, updated
     category = models.ForeignKey(Category, 
                                 on_delete=models.CASCADE, 
