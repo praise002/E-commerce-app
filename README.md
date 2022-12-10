@@ -7,3 +7,4 @@
 - pipenv install Django~=4.1.0
 - pipenv install python-dotenv
 - pipenv install Pillow==9.2.0
+- pipenv install django-debug-toolbar
