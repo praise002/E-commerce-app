@@ -28,7 +28,6 @@ def cart_remove(request, product_id):
 
 
 # The cart_detail view gets the current cart to display it
-@require_POST
 def cart_detail(request):
     cart = Cart(request)
     return render(request, 'cart/detail.html', {'cart': cart})
