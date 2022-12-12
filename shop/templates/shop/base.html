@@ -21,7 +21,7 @@
                             {{ total_items }} item{{ total_items|pluralize }},
                             ${{ cart.get_total_price }}
                         </a>
-                {% else %}
+                {% elif not order %}
                     Your cart is empty.
                 {% endif %}
             {% endwith %}
@@ -33,3 +33,5 @@
     </div>
 </body>
 </html>
+
+<!-- TODO: fix order creating after every refresh -->

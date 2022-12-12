@@ -8,3 +8,5 @@
 - pipenv install python-dotenv
 - pipenv install Pillow==9.2.0
 - pipenv install django-debug-toolbar
+
+- pipenv install celery==5.2.7
