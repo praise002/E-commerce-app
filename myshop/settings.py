@@ -140,3 +140,12 @@ CART_SESSION_ID = 'cart'
 INTERNAL_IPS = [
     '127.0.0.1',
 ]
+
+# Email configuration
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'praizthecoder@gmail.com'
+# EMAIL_HOST_PASSWORD = os.getenv('PASSWORD')
+# EMAIL_PORT = 587 
+# EMAIL_USE_TLS = True
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
