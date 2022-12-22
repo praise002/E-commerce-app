@@ -19,6 +19,7 @@ rabbitmq:management  **startbthe server with docker**
 - celery -A myshop worker -l info --without-gossip --without-mingle --without-heartbeat -Ofair --pool=solo
 - pipenv install flower==1.1.0
 - celery -A myshop flower  *To launch the flower*
+- pipenv install stripe==4.0.2
 
 
 - docker pull redis
