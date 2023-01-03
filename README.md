@@ -14,7 +14,7 @@ to all templates and created a form for placing orders. I also learned how to im
 - pipenv install celery==5.2.7
 - docker pull rabbitmq
 - docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 
-rabbitmq:management  **startbthe server with docker**
+rabbitmq:management  **start the server with docker**
 - celery -A myshop worker -l info
 - celery -A myshop worker -l info --without-gossip --without-mingle --without-heartbeat -Ofair --pool=solo
 - pipenv install flower==1.1.0
