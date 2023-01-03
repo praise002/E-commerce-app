@@ -27,3 +27,7 @@ rabbitmq:management  **startbthe server with docker**
 - docker exec -it redis sh
 - redis-cli
 - pipenv install redis==4.3.4
+
+- .\stripe login
+- .\stripe listen --forward-to localhost:8000/payment/webhook/
+*We use this command above to tell Stripe to listen to events and forward them to our local host*
