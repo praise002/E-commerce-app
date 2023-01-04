@@ -31,3 +31,5 @@ rabbitmq:management  **start the server with docker**
 - .\stripe login
 - .\stripe listen --forward-to localhost:8000/payment/webhook/
 *We use this command above to tell Stripe to listen to events and forward them to our local host*
+
+- pipenv install WeasyPrint==56.1
