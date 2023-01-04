@@ -33,3 +33,4 @@ rabbitmq:management  **start the server with docker**
 *We use this command above to tell Stripe to listen to events and forward them to our local host*
 
 - pipenv install WeasyPrint==56.1
+- python manage.py collectstatic
