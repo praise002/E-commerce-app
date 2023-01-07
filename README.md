@@ -5,6 +5,11 @@
 * I created a basic e-commerce application. I made a product catalog and built a 
 shopping cart using sessions. I implemented a custom context processor to make the cart available 
 to all templates and created a form for placing orders. I also learned how to implement asynchronous tasks using Celery and RabbitMQ.
+
+* I integrated the Stripe payment gateway into my project and created a webhook 
+endpoint to receive payment notifications. I built a custom administration action to export orders 
+to CSV. I also customized the Django administration site using custom views and templates. Finally, 
+I learned how to generate PDF files with WeasyPrint and how to attach them to emails.
 #### Basic commands
 - pipenv install Django~=4.1.0
 - pipenv install python-dotenv
