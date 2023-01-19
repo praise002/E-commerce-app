@@ -39,3 +39,5 @@ rabbitmq:management  **start the server with docker**
 
 - pipenv install WeasyPrint==56.1
 - python manage.py collectstatic
+- pipenv install redis==4.3.4
+- docker run -it --rm --name redis -p 6379:6379 redis

@@ -158,3 +158,8 @@ STRIPE_PUBLISHABLE_KEY = os.getenv('STRIPE_PUBLISHABLE_KEY') # Publishable key
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY') # Secret key
 STRIPE_API_VERSION = '2022-08-01'
 STRIPE_WEBHOOK_SECRET = os.getenv('endpoint_secret')
+
+# Redis settings
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
