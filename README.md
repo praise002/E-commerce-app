@@ -10,6 +10,10 @@ to all templates and created a form for placing orders. I also learned how to im
 endpoint to receive payment notifications. I built a custom administration action to export orders 
 to CSV. I also customized the Django administration site using custom views and templates. Finally, 
 I learned how to generate PDF files with WeasyPrint and how to attach them to emails.
+
+* I created a coupon system using Django sessions and integrated it with Stripe. I
+also built a recommendation engine using Redis to recommend products that are usually purchased 
+together.
 #### Basic commands
 - pipenv install Django~=4.1.0
 - pipenv install python-dotenv
